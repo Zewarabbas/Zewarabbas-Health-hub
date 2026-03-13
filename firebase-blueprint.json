@@ -1,0 +1,30 @@
+{
+  "entities": {
+    "BlogPost": {
+      "title": "Blog Post",
+      "description": "A dynamic blog post article",
+      "type": "object",
+      "properties": {
+        "title": { "type": "string", "description": "The title of the post" },
+        "slug": { "type": "string", "description": "The URL-friendly slug" },
+        "excerpt": { "type": "string", "description": "A short summary of the post" },
+        "content": { "type": "string", "description": "The full HTML/Markdown content" },
+        "category": { "type": "string", "description": "The category name" },
+        "author": { "type": "string", "description": "The author's name" },
+        "date": { "type": "string", "description": "Publication date" },
+        "image": { "type": "string", "description": "Featured image URL" },
+        "readTime": { "type": "string", "description": "Estimated read time" },
+        "featured": { "type": "boolean", "description": "Whether the post is featured" },
+        "createdAt": { "type": "number", "description": "Timestamp of creation" },
+        "updatedAt": { "type": "number", "description": "Timestamp of last update" }
+      },
+      "required": ["title", "slug", "content", "category", "author", "date", "image"]
+    }
+  },
+  "firestore": {
+    "/posts/{postId}": {
+      "schema": "BlogPost",
+      "description": "Collection of blog posts"
+    }
+  }
+}
