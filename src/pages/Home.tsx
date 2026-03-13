@@ -1,13 +1,37 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'motion/react';
-import { ArrowRight, Play, Star, Users, Award } from 'lucide-react';
+import { 
+  ArrowRight, 
+  Play, 
+  Star, 
+  Users, 
+  Award,
+  Scale,
+  Home as HomeIcon,
+  Dumbbell,
+  Apple,
+  Zap,
+  Flower2,
+  BicepsFlexed,
+  Brain
+} from 'lucide-react';
 import { CATEGORIES } from '../constants';
 import { blogService } from '../services/blogService';
 import { BlogPost } from '../types';
 import BlogCard from '../components/BlogCard';
 import AdPlaceholder from '../components/AdPlaceholder';
-import * as Icons from 'lucide-react';
+
+const iconMap: Record<string, any> = {
+  Scale,
+  Home: HomeIcon,
+  Dumbbell,
+  Apple,
+  Zap,
+  Flower2,
+  BicepsFlexed,
+  Brain
+};
 
 const Home = () => {
   const [posts, setPosts] = useState<BlogPost[]>([]);
@@ -144,7 +168,7 @@ const Home = () => {
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {CATEGORIES.map((cat) => {
-              const IconComponent = (Icons as any)[cat.icon];
+              const IconComponent = iconMap[cat.icon] || Star;
               return (
                 <Link
                   key={cat.slug}
