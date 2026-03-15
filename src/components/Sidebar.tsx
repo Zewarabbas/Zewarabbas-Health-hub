@@ -5,7 +5,6 @@ import { CATEGORIES } from '../constants';
 import { blogService } from '../services/blogService';
 import { BlogPost } from '../types';
 import BlogCard from './BlogCard';
-import AdPlaceholder from './AdPlaceholder';
 
 const Sidebar = () => {
   const [recentPosts, setRecentPosts] = useState<BlogPost[]>([]);
@@ -19,8 +18,6 @@ const Sidebar = () => {
 
   return (
     <aside className="space-y-12">
-      <AdPlaceholder location="sidebar" />
-
       {/* Categories */}
       <div>
         <h3 className="text-lg font-bold mb-6 flex items-center gap-2">
@@ -56,8 +53,6 @@ const Sidebar = () => {
           ))}
         </div>
       </div>
-
-      <AdPlaceholder location="sidebar" />
     </aside>
   );
 };

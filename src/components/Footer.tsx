@@ -72,11 +72,6 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Ad Placeholder */}
-        <div className="ad-placeholder mb-12 bg-slate-800 border-slate-700 text-slate-500">
-          Google AdSense - Footer Banner
-        </div>
-
         <div className="pt-8 border-t border-slate-800 text-center text-xs">
           <p>&copy; {new Date().getFullYear()} Healthy Life Hub. All rights reserved.</p>
         </div>

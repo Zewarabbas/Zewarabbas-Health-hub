@@ -6,7 +6,6 @@ import { BlogPost } from '../types';
 import { Calendar, Clock, Facebook, Twitter, MessageCircle, Share2 } from 'lucide-react';
 import Sidebar from '../components/Sidebar';
 import BlogCard from '../components/BlogCard';
-import AdPlaceholder from '../components/AdPlaceholder';
 
 const SingleArticle = () => {
   const { slug } = useParams();
@@ -125,13 +124,9 @@ const SingleArticle = () => {
             />
           </div>
 
-          <AdPlaceholder location="header" />
-
           {/* Content */}
           <div className="prose max-w-none mb-16" dangerouslySetInnerHTML={{ __html: post.content }}>
           </div>
-
-          <AdPlaceholder location="in-article" />
 
           {/* Social Share */}
           <div className="flex items-center gap-4 py-8 border-y border-slate-100 mb-16">
@@ -175,8 +170,6 @@ const SingleArticle = () => {
               </div>
             </section>
           )}
-
-          <AdPlaceholder location="footer" />
         </article>
 
         <Sidebar />

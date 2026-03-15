@@ -20,6 +20,8 @@ export const BLOG_POSTS: BlogPost[] = [
     content: `
       <p>Weight loss is often portrayed as a battle of willpower, but it's more about biology, psychology, and sustainable habits. In this comprehensive guide, we'll explore how to achieve natural weight loss that lasts a lifetime, moving beyond the "quick fix" mentality to a holistic approach to wellness.</p>
       
+      <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&q=80&w=800" alt="Healthy Food" class="w-full rounded-2xl my-8" />
+
       <h2>Understanding the Science of Weight Loss</h2>
       <p>At its core, weight loss is governed by the laws of thermodynamics: energy in versus energy out. However, the human body is not a simple calculator. To lose weight effectively, you need to understand how your metabolism, hormones, and lifestyle interact.</p>
       
@@ -29,8 +31,6 @@ export const BLOG_POSTS: BlogPost[] = [
       <h3>Metabolism and Hormones</h3>
       <p>Your metabolism is the rate at which your body burns energy. Factors like age, muscle mass, and activity level play a role. Hormones like insulin, ghrelin (the hunger hormone), and leptin (the fullness hormone) also dictate how your body stores fat and when you feel hungry. Balancing these through diet and sleep is crucial for long-term success.</p>
 
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - In-Article Banner</div>
       
       <h2>Nutrition Strategies for Sustainable Success</h2>
       <p>What you eat determines how you feel, how your body functions, and how easily you can maintain a deficit. The goal is to find a way of eating that you enjoy and can sustain indefinitely.</p>
@@ -56,8 +56,7 @@ export const BLOG_POSTS: BlogPost[] = [
         <li>Avoid eating directly from a package; portion it out first.</li>
       </ul>
 
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - Mid-Article Square</div>
+
       
       <h2>Daily Habits That Accelerate Progress</h2>
       <p>Weight loss isn't just about what happens at mealtime or in the gym. Your daily routine plays a massive role in your overall energy expenditure and hormonal health.</p>
@@ -89,8 +88,7 @@ export const BLOG_POSTS: BlogPost[] = [
       <h3>Low-Impact Cardio</h3>
       <p>Swimming, cycling, or using an elliptical are great ways to improve cardiovascular health without putting too much stress on your joints.</p>
 
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - Bottom Article Banner</div>
+
 
       <h2>Overcoming Plateaus and Staying Consistent</h2>
       <p>Weight loss is rarely linear. You will likely hit plateaus where the scale doesn't move for a week or two. This is normal. Your body is adjusting. Focus on "non-scale victories" like how your clothes fit, your energy levels, and your strength in the gym.</p>
@@ -138,11 +136,11 @@ export const BLOG_POSTS: BlogPost[] = [
     content: `
       <p>Many people believe they need a gym membership to get fit, but your own body weight is one of the most effective tools you have. Whether you're a busy professional, a stay-at-home parent, or someone who simply prefers the privacy of their own living room, home workouts offer a convenient and effective way to build strength, improve cardiovascular health, and boost your overall well-being.</p>
       
+      <img src="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&q=80&w=800" alt="Home Workout" class="w-full rounded-2xl my-8" />
+
       <h2>Why Home Workouts are the Future of Fitness</h2>
       <p>The fitness landscape has shifted dramatically. Home workouts eliminate the common barriers that prevent people from starting or staying consistent with their fitness journey. No more travel time, no more expensive gym fees, and no more waiting for equipment. You have total control over your environment, your music, and your schedule.</p>
       
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - In-Article Banner</div>
       
       <h2>Setting Up Your Home Gym (With Zero Equipment)</h2>
       <p>You don't need fancy machines to get a great workout. All you need is enough space to move and a few common household items if you want to add variety.</p>
@@ -168,8 +166,6 @@ export const BLOG_POSTS: BlogPost[] = [
       <h3>4. The Plank (Core Stability)</h3>
       <p>Core strength is vital for balance and preventing back pain. Hold a push-up position but rest on your forearms. Keep your body in a straight line from head to heels, engaging your glutes and abs. Avoid letting your hips sag or hike up.</p>
 
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - Mid-Article Banner</div>
       
       <h2>Sample 20-Minute Full-Body Routine</h2>
       <p>This routine is designed for beginners. Perform each exercise for 40 seconds, followed by 20 seconds of rest. Complete the entire circuit 3 times.</p>
@@ -192,8 +188,7 @@ export const BLOG_POSTS: BlogPost[] = [
         <li><strong>Try Advanced Variations:</strong> Move from knee push-ups to full push-ups, or from squats to jump squats.</li>
       </ul>
 
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - Bottom Article Square</div>
+
 
       <h2>Staying Motivated and Consistent</h2>
       <p>The biggest challenge with home workouts is the lack of accountability. Here's how to stay on track:</p>
@@ -244,6 +239,8 @@ export const BLOG_POSTS: BlogPost[] = [
     content: `
       <p>Stepping into a gym for the first time can be an overwhelming experience. The rows of machines, the clanging of weights, and the focused atmosphere can make anyone feel out of place. However, having a structured plan is the best way to build confidence, ensure safety, and guarantee results. This guide provides a comprehensive roadmap for both beginners and those ready to transition to an intermediate level.</p>
       
+      <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&q=80&w=800" alt="Gym Workout" class="w-full rounded-2xl my-8" />
+
       <h2>The Fundamentals of Strength Training</h2>
       <p>Before you pick up a dumbbell, it's essential to understand the core principles that drive progress in the gym. Strength training is not just about lifting heavy things; it's about stimulating your muscles to adapt and grow.</p>
       
@@ -253,8 +250,6 @@ export const BLOG_POSTS: BlogPost[] = [
       <h3>2. Proper Form and Technique</h3>
       <p>Lifting heavy is useless if your form is poor. Poor technique leads to injuries and inefficient muscle activation. Always prioritize moving through a full range of motion with control before adding more weight.</p>
       
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - In-Article Banner</div>
       
       <h2>Beginner Full-Body Routine (Weeks 1-4)</h2>
       <p>For the first month, your goal is to build a foundation of strength and learn the basic movements. Perform this routine 3 days a week (e.g., Monday, Wednesday, Friday), allowing at least one day of rest between sessions.</p>
@@ -291,8 +286,6 @@ export const BLOG_POSTS: BlogPost[] = [
         <li>Calf Raises: 3 sets of 15 reps</li>
       </ul>
       
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - Mid-Article Banner</div>
       
       <h2>Tips for Muscle Growth (Hypertrophy)</h2>
       <p>If your goal is to build visible muscle, you need to focus on hypertrophy training. This typically involves moderate weight and higher repetitions (8-12 reps per set) with shorter rest periods (60-90 seconds).</p>
@@ -327,8 +320,6 @@ export const BLOG_POSTS: BlogPost[] = [
         <li><strong>Fats:</strong> Essential for hormone production and brain health. Found in avocados, nuts, seeds, and healthy oils.</li>
       </ul>
       
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - In-Article Banner</div>
       
       <h2>A Sample Daily Menu for Weight Loss and Energy</h2>
       <p>This sample plan focuses on high-volume, nutrient-dense foods that keep you full while maintaining a caloric deficit.</p>
@@ -350,8 +341,6 @@ export const BLOG_POSTS: BlogPost[] = [
         <li>Hummus with carrot and celery sticks.</li>
       </ul>
       
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - Mid-Article Banner</div>
       
       <h2>The Importance of Hydration</h2>
       <p>Water is involved in every chemical reaction in your body, including fat metabolism. Often, we mistake thirst for hunger. Aim to drink at least 2-3 liters of water a day, and more if you are exercising intensely.</p>
@@ -376,8 +365,6 @@ export const BLOG_POSTS: BlogPost[] = [
       <h2>Motivation vs. Discipline: The Crucial Difference</h2>
       <p>Motivation is a feeling. It's the emotional spark that gets you started. Discipline, on the other hand, is a habit. It's the ability to do what needs to be done, even when you don't feel like doing it. While motivation is a great starter, discipline is the engine that drives you across the finish line.</p>
       
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - In-Article Banner</div>
       
       <h2>Setting SMART Goals for Long-Term Success</h2>
       <p>One of the biggest killers of motivation is a lack of clarity. If you don't know exactly what you're working toward, it's easy to lose focus. Use the SMART framework to set your goals:</p>
@@ -398,8 +385,6 @@ export const BLOG_POSTS: BlogPost[] = [
       <h3>Focus on the "Post-Workout Feeling"</h3>
       <p>Remind yourself how good you feel after a workout—the endorphin rush, the sense of accomplishment, and the increased energy. That feeling is always worth the initial effort.</p>
       
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - Mid-Article Banner</div>
       
       <h2>Building a Supportive Environment</h2>
       <p>Your environment can either support your goals or sabotage them. Make it as easy as possible to make the right choices:</p>
@@ -435,8 +420,6 @@ export const BLOG_POSTS: BlogPost[] = [
       <h3>2. Stress Reduction and Mental Clarity</h3>
       <p>Yoga emphasizes deep, mindful breathing, which activates the parasympathetic nervous system—the body's "rest and digest" mode. This helps to lower cortisol levels and promote a sense of calm.</p>
       
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - In-Article Banner</div>
       
       <h2>Essential Yoga Poses for Beginners</h2>
       <p>You don't need to be able to touch your toes to start yoga. These foundational poses are accessible to everyone:</p>
@@ -459,9 +442,6 @@ export const BLOG_POSTS: BlogPost[] = [
         <li>Butterfly stretch (2 minutes)</li>
         <li>Cat-Cow stretch (2 minutes)</li>
       </ol>
-      
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - Mid-Article Banner</div>
       
       <h2>Conclusion</h2>
       <p>Yoga is a journey of self-discovery. It's not about how you look in a pose, but how you feel within it. Listen to your body, breathe deeply, and enjoy the process of opening up both your body and your mind.</p>
@@ -489,8 +469,6 @@ export const BLOG_POSTS: BlogPost[] = [
       <h3>2. Metabolic Stress</h3>
       <p>This is the "pump" you feel during high-rep sets. It involves the buildup of metabolites like lactate, which signals the body to release growth-promoting hormones.</p>
       
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - In-Article Banner</div>
       
       <h2>Nutrition for Muscle Building</h2>
       <p>You cannot build muscle out of thin air. You need to provide your body with the necessary energy and building blocks.</p>
@@ -509,9 +487,6 @@ export const BLOG_POSTS: BlogPost[] = [
         <li><strong>Active Recovery:</strong> Light movement like walking or swimming can help improve blood flow and speed up recovery.</li>
       </ul>
       
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - Mid-Article Banner</div>
-      
       <h2>Conclusion</h2>
       <p>Building muscle naturally is a marathon, not a sprint. Focus on progressive overload, eat a balanced diet with plenty of protein, and prioritize your recovery. Stay consistent, and over time, you will see the transformation you're working for.</p>
     `,
@@ -529,11 +504,11 @@ export const BLOG_POSTS: BlogPost[] = [
     content: `
       <p>Physical health and mental health are inextricably linked. We often think of exercise as a tool for changing our bodies, but its most profound effects are often on our minds. This guide explores the powerful connection between fitness and mental wellness.</p>
       
+      <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&q=80&w=800" alt="Mental Wellness" class="w-full rounded-2xl my-8" />
+
       <h2>Exercise: The Natural Antidepressant</h2>
       <p>Physical activity stimulates the release of endorphins—the body's natural "feel-good" chemicals. It also increases levels of serotonin and dopamine, which play a crucial role in regulating mood and preventing depression and anxiety.</p>
       
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - In-Article Banner</div>
       
       <h2>Stress Reduction and Emotional Resilience</h2>
       <p>When you exercise, you are essentially putting your body through a controlled form of stress. This helps your body and mind become better at managing stress in other areas of your life. It's like training your "stress-management muscle."</p>
@@ -544,8 +519,6 @@ export const BLOG_POSTS: BlogPost[] = [
       <h2>Improving Sleep Quality and Cognitive Function</h2>
       <p>Physical activity has been shown to improve both the quality and duration of sleep. Better sleep, in turn, leads to improved focus, memory, and emotional regulation. It's a virtuous cycle that starts with movement.</p>
       
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - Mid-Article Banner</div>
       
       <h2>Conclusion</h2>
       <p>Wellness is a holistic journey that encompasses both the body and the mind. By prioritizing physical activity, you aren't just building a stronger body; you're building a more resilient, focused, and happy mind. Start small, find activities you enjoy, and embrace the transformative power of the mind-body connection.</p>
@@ -564,6 +537,8 @@ export const BLOG_POSTS: BlogPost[] = [
     content: `
       <p>Intermittent fasting (IF) has become one of the most popular health and fitness trends in recent years. Unlike most diets that focus on *what* you eat, IF focuses on *when* you eat. It's an eating pattern that cycles between periods of fasting and eating.</p>
       
+      <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&q=80&w=800" alt="Healthy Eating" class="w-full rounded-2xl my-8" />
+
       <h2>Common Intermittent Fasting Methods</h2>
       <p>There are several different ways to do intermittent fasting, but the most popular include:</p>
       <ul>
@@ -571,9 +546,6 @@ export const BLOG_POSTS: BlogPost[] = [
         <li><strong>Eat-Stop-Eat:</strong> This involves fasting for 24 hours, once or twice a week, for example by not eating from dinner one day until dinner the next day.</li>
         <li><strong>The 5:2 Diet:</strong> With this method, you consume only 500–600 calories on two non-consecutive days of the week, but eat normally the other 5 days.</li>
       </ul>
-
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - In-Article Banner</div>
 
       <h2>The Benefits of Intermittent Fasting</h2>
       <p>Research shows that intermittent fasting can have powerful benefits for your body and brain. It can lead to weight loss, improved metabolic health, and perhaps even a longer life.</p>
@@ -600,6 +572,9 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt: 'Short on time? This high-intensity interval training routine will blast fat and improve your fitness in just 15 minutes.',
     content: `
       <p>High-Intensity Interval Training (HIIT) is the most efficient way to burn fat and improve cardiovascular health. This 15-minute routine requires no equipment and can be done anywhere.</p>
+      
+      <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&q=80&w=800" alt="HIIT Workout" class="w-full rounded-2xl my-8" />
+
       <h2>The 15-Minute HIIT Routine</h2>
       <p>Perform each exercise for 40 seconds, followed by 20 seconds of rest. Repeat the entire circuit 3 times.</p>
       <ul>
@@ -609,8 +584,7 @@ export const BLOG_POSTS: BlogPost[] = [
         <li><strong>High Knees:</strong> Keep your heart rate up.</li>
         <li><strong>Plank Jacks:</strong> Core stability with a cardio twist.</li>
       </ul>
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - In-Article Banner</div>
+      
       <h2>Why HIIT Works</h2>
       <p>HIIT increases your metabolic rate for hours after exercise. This is known as the "afterburn effect" or Excess Post-exercise Oxygen Consumption (EPOC).</p>
       <p>By pushing your body to its limit in short bursts, you trigger physiological changes that lead to faster fat loss compared to steady-state cardio.</p>
@@ -628,6 +602,9 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt: 'New to the gym? This simple yet effective 3-day full-body routine will help you build a solid foundation.',
     content: `
       <p>Walking into a gym for the first time can be intimidating. This 3-day full-body routine is designed to help you build strength, learn proper form, and get comfortable with the equipment.</p>
+      
+      <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&q=80&w=800" alt="Gym Training" class="w-full rounded-2xl my-8" />
+
       <h2>The 3-Day Full-Body Routine</h2>
       <p>Perform this workout on non-consecutive days (e.g., Monday, Wednesday, Friday).</p>
       <ul>
@@ -637,8 +614,7 @@ export const BLOG_POSTS: BlogPost[] = [
         <li><strong>Overhead Press:</strong> 3 sets of 10-12 reps.</li>
         <li><strong>Plank:</strong> 3 sets of 30-60 seconds.</li>
       </ul>
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - In-Article Banner</div>
+      
       <h2>Tips for Success</h2>
       <p>Focus on form over weight. It's better to lift lighter weights with perfect technique than heavy weights with poor form. Consistency is key—stick to the plan for at least 8-12 weeks to see results.</p>
     `,
@@ -655,14 +631,16 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt: 'A complete 7-day meal plan focused on whole foods, lean protein, and healthy fats to help you lose weight sustainably.',
     content: `
       <p>Weight loss starts in the kitchen. This 7-day diet plan is designed to provide your body with the nutrients it needs while maintaining a caloric deficit for weight loss.</p>
+      
+      <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&q=80&w=800" alt="Healthy Meal Plan" class="w-full rounded-2xl my-8" />
+
       <h2>The Core Principles</h2>
       <ul>
         <li><strong>Eat Whole Foods:</strong> Focus on vegetables, fruits, lean proteins, and whole grains.</li>
         <li><strong>Stay Hydrated:</strong> Drink at least 8-10 glasses of water daily.</li>
         <li><strong>Limit Processed Foods:</strong> Avoid sugary drinks, snacks, and highly processed meals.</li>
       </ul>
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - In-Article Banner</div>
+      
       <h2>Sample Daily Menu</h2>
       <p><strong>Breakfast:</strong> Oatmeal with berries and a handful of nuts.</p>
       <p><strong>Lunch:</strong> Grilled chicken salad with plenty of greens and olive oil dressing.</p>
@@ -681,12 +659,15 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt: 'Struggling to stay consistent? These 5 proven strategies will help you maintain your motivation and reach your goals.',
     content: `
       <p>Motivation is what gets you started; habit is what keeps you going. But staying motivated can be tough. Here are 5 strategies to help you stay on track.</p>
+      
+      <img src="https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?auto=format&fit=crop&q=80&w=800" alt="Fitness Motivation" class="w-full rounded-2xl my-8" />
+
       <h2>1. Set SMART Goals</h2>
       <p>Specific, Measurable, Achievable, Relevant, and Time-bound. Instead of "I want to lose weight," try "I want to lose 5 pounds in the next 30 days."</p>
       <h2>2. Find Your "Why"</h2>
       <p>Why do you want to get fit? Is it for your health, your family, or your self-confidence? Keep your "why" at the forefront of your mind.</p>
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - In-Article Banner</div>
+      
+      
       <h2>3. Track Your Progress</h2>
       <p>Keep a workout log, take progress photos, or use a fitness app. Seeing how far you've come is incredibly motivating.</p>
     `,
@@ -703,6 +684,9 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt: 'Improve your flexibility and reduce muscle tension with these 10 simple yoga poses designed for beginners.',
     content: `
       <p>Flexibility is a key component of overall fitness. Yoga is one of the best ways to improve your range of motion and reduce the risk of injury.</p>
+      
+      <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&q=80&w=800" alt="Yoga Practice" class="w-full rounded-2xl my-8" />
+
       <h2>10 Essential Poses</h2>
       <ul>
         <li><strong>Downward-Facing Dog:</strong> Stretches the hamstrings and calves.</li>
@@ -711,8 +695,7 @@ export const BLOG_POSTS: BlogPost[] = [
         <li><strong>Warrior I & II:</strong> Strengthens the legs and opens the hips.</li>
         <li><strong>Cat-Cow Stretch:</strong> Improves spinal flexibility.</li>
       </ul>
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - In-Article Banner</div>
+      
       <h2>Benefits of Regular Practice</h2>
       <p>Beyond flexibility, yoga improves balance, strength, and mental clarity. Aim for at least 15-20 minutes of practice 3-4 times a week.</p>
     `,
@@ -729,12 +712,14 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt: 'Understand the physiological processes behind muscle growth and how to optimize your training for maximum hypertrophy.',
     content: `
       <p>Muscle hypertrophy is the increase in the size of muscle cells. To maximize growth, you need to understand the three primary drivers of hypertrophy.</p>
+      
+      <img src="https://images.unsplash.com/photo-1532029837206-abbe2b7620e3?auto=format&fit=crop&q=80&w=800" alt="Muscle Building" class="w-full rounded-2xl my-8" />
+
       <h2>1. Mechanical Tension</h2>
       <p>Lifting heavy weights through a full range of motion creates tension that triggers muscle growth.</p>
       <h2>2. Metabolic Stress</h2>
       <p>The "pump" you feel during high-rep training creates metabolic stress that also contributes to hypertrophy.</p>
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - In-Article Banner</div>
+      
       <h2>3. Muscle Damage</h2>
       <p>Micro-tears in muscle fibers, often caused by eccentric (lowering) movements, signal the body to repair and grow stronger.</p>
     `,
@@ -751,10 +736,12 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt: 'Learn how mindfulness and meditation can reduce stress, improve focus, and enhance your overall mental well-being.',
     content: `
       <p>In our fast-paced world, mental wellness is more important than ever. Mindfulness and meditation are powerful tools for managing stress and finding inner peace.</p>
+      
+      <img src="https://images.unsplash.com/photo-1518241353330-0f7941c2d9b5?auto=format&fit=crop&q=80&w=800" alt="Meditation" class="w-full rounded-2xl my-8" />
+
       <h2>What is Mindfulness?</h2>
       <p>Mindfulness is the practice of being fully present in the moment, without judgment. It's about observing your thoughts and feelings as they are.</p>
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - In-Article Banner</div>
+      
       <h2>How to Start Meditating</h2>
       <p>Find a quiet space, sit comfortably, and focus on your breath. When your mind wanders, gently bring it back to your breathing. Start with just 5 minutes a day.</p>
     `,
@@ -771,6 +758,9 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt: 'Protect your heart with these 10 nutrient-dense superfoods that can lower cholesterol and improve cardiovascular function.',
     content: `
       <p>Your heart is the engine of your body. Feeding it the right nutrients is essential for long-term health and vitality.</p>
+      
+      <img src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&q=80&w=800" alt="Heart Healthy Food" class="w-full rounded-2xl my-8" />
+
       <h2>Heart-Healthy Superfoods</h2>
       <ul>
         <li><strong>Berries:</strong> Packed with antioxidants that reduce inflammation.</li>
@@ -779,8 +769,7 @@ export const BLOG_POSTS: BlogPost[] = [
         <li><strong>Oats:</strong> Contain beta-glucan, a fiber that lowers cholesterol.</li>
         <li><strong>Walnuts:</strong> A great source of fiber and micronutrients.</li>
       </ul>
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - In-Article Banner</div>
+      
       <h2>Conclusion</h2>
       <p>Incorporating these superfoods into your diet is a simple yet powerful way to support your cardiovascular health. Small changes can lead to big results over time.</p>
     `,
@@ -797,6 +786,9 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt: 'No gym? No problem. This comprehensive guide covers everything you need to know about building strength using just your body weight.',
     content: `
       <p>Bodyweight training, or calisthenics, is a versatile and effective way to build strength, flexibility, and endurance without any equipment.</p>
+      
+      <img src="https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?auto=format&fit=crop&q=80&w=800" alt="Bodyweight Training" class="w-full rounded-2xl my-8" />
+
       <h2>Key Bodyweight Exercises</h2>
       <ul>
         <li><strong>Push-ups:</strong> The gold standard for upper body strength.</li>
@@ -805,8 +797,7 @@ export const BLOG_POSTS: BlogPost[] = [
         <li><strong>Planks:</strong> Unbeatable for core stability.</li>
         <li><strong>Lunges:</strong> Great for balance and leg strength.</li>
       </ul>
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - In-Article Banner</div>
+      
       <h2>Progressive Overload in Calisthenics</h2>
       <p>To keep getting stronger, you need to increase the difficulty of your exercises. This can be done by increasing reps, decreasing rest time, or moving to more challenging variations (e.g., from regular push-ups to diamond push-ups).</p>
     `,
@@ -823,12 +814,14 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt: 'Stuck at the same weight for weeks? Learn the common causes of weight loss plateaus and how to break through them.',
     content: `
       <p>Weight loss is rarely a linear process. Plateaus are a normal part of the journey, but they can be incredibly frustrating. Here's how to overcome them.</p>
+      
+      <img src="https://images.unsplash.com/photo-1505236858219-8359eb29e329?auto=format&fit=crop&q=80&w=800" alt="Weight Loss Plateau" class="w-full rounded-2xl my-8" />
+
       <h2>1. Re-evaluate Your Caloric Intake</h2>
       <p>As you lose weight, your body requires fewer calories. You may need to adjust your intake to maintain a deficit.</p>
       <h2>2. Increase Your Activity Level</h2>
       <p>Try adding more cardio or increasing the intensity of your strength training sessions.</p>
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - In-Article Banner</div>
+      
       <h2>3. Prioritize Sleep and Stress Management</h2>
       <p>High stress and poor sleep can lead to hormonal imbalances that stall weight loss. Make sure you're getting enough rest.</p>
     `,
@@ -845,6 +838,9 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt: 'Dispelling the myths: Why every woman should incorporate strength training into her fitness routine.',
     content: `
       <p>Many women avoid lifting weights for fear of "bulking up." In reality, strength training is one of the best things a woman can do for her health and physique.</p>
+      
+      <img src="https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?auto=format&fit=crop&q=80&w=800" alt="Women Strength Training" class="w-full rounded-2xl my-8" />
+
       <h2>Benefits of Lifting Weights</h2>
       <ul>
         <li><strong>Increased Metabolism:</strong> Muscle burns more calories at rest than fat.</li>
@@ -852,8 +848,7 @@ export const BLOG_POSTS: BlogPost[] = [
         <li><strong>Enhanced Confidence:</strong> Feeling strong is incredibly empowering.</li>
         <li><strong>Better Body Composition:</strong> Lifting weights helps you achieve a toned, athletic look.</li>
       </ul>
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - In-Article Banner</div>
+      
       <h2>Getting Started</h2>
       <p>Start with basic compound movements like squats, deadlifts, and presses. Don't be afraid to lift heavy—your body will thank you for it!</p>
     `,
@@ -880,10 +875,7 @@ export const BLOG_POSTS: BlogPost[] = [
         <li><strong>High Knees:</strong> Keeps the heart rate elevated.</li>
         <li><strong>Push-Ups:</strong> Upper body strength and stability.</li>
       </ol>
-
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - Mid-Article Banner</div>
-
+      
       <h2>Why HIIT Works</h2>
       <p>HIIT triggers the "afterburn effect," also known as Excess Post-exercise Oxygen Consumption (EPOC). This means your body continues to burn calories at an elevated rate for hours after your workout is finished.</p>
 
@@ -907,9 +899,6 @@ export const BLOG_POSTS: BlogPost[] = [
       <h2>1. Mechanical Tension</h2>
       <p>This is the most important factor. It involves lifting heavy weights through a full range of motion. The tension placed on the muscle fibers signals the body to initiate the repair and growth process.</p>
       
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - In-Article Banner</div>
-
       <h2>2. Metabolic Stress</h2>
       <p>This is the "pump" you feel during high-repetition sets. The buildup of metabolites like lactate and hydrogen ions triggers the release of anabolic hormones like growth hormone and IGF-1.</p>
       
@@ -933,6 +922,8 @@ export const BLOG_POSTS: BlogPost[] = [
     content: `
       <p>The idea that you need meat to build muscle is a myth. Many world-class athletes, from bodybuilders to ultramarathon runners, are thriving on plant-based diets. The key is understanding how to get enough protein and essential nutrients from plant sources.</p>
       
+      <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&q=80&w=800" alt="Plant Based Nutrition" class="w-full rounded-2xl my-8" />
+
       <h2>Top Plant-Based Protein Sources</h2>
       <ul>
         <li><strong>Legumes:</strong> Lentils, chickpeas, and black beans are packed with protein and fiber.</li>
@@ -942,8 +933,6 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
 
       <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - Mid-Article Banner</div>
-
       <h2>Essential Nutrients to Watch</h2>
       <p>While a plant-based diet is naturally high in many vitamins and minerals, athletes need to pay special attention to Vitamin B12, Iron, Zinc, and Omega-3 fatty acids.</p>
 
@@ -964,15 +953,14 @@ export const BLOG_POSTS: BlogPost[] = [
     content: `
       <p>Your mind is your most powerful training tool. Visualization, or mental rehearsal, involves creating vivid mental images of yourself performing an action successfully. By practicing in your mind, you can prime your nervous system for the real thing.</p>
       
+      <img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&q=80&w=800" alt="Mental Training" class="w-full rounded-2xl my-8" />
+
       <h2>How to Practice Visualization</h2>
       <ol>
         <li><strong>Find a Quiet Space:</strong> Close your eyes and take a few deep breaths to relax.</li>
         <li><strong>Be Specific:</strong> Imagine every detail—the smell of the gym, the weight of the bar in your hands, the sound of your breathing.</li>
         <li><strong>Focus on Success:</strong> See yourself completing the lift with perfect form and feeling strong and confident.</li>
       </ol>
-
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - In-Article Banner</div>
 
       <h2>The Benefits of Mental Training</h2>
       <p>Visualization has been shown to improve motor skills, increase confidence, and reduce performance anxiety. It's a way to get "extra reps" without the physical fatigue.</p>
@@ -994,6 +982,8 @@ export const BLOG_POSTS: BlogPost[] = [
     content: `
       <p>Back pain is one of the most common complaints in the modern world, often caused by long hours of sitting and poor posture. Yoga offers a gentle and effective way to stretch the tight muscles and strengthen the weak ones that contribute to back issues.</p>
       
+      <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&q=80&w=800" alt="Yoga for Back Pain" class="w-full rounded-2xl my-8" />
+
       <h2>Key Poses for Back Relief</h2>
       <ul>
         <li><strong>Cat-Cow:</strong> Gently mobilizes the spine and relieves tension in the neck and shoulders.</li>
@@ -1001,9 +991,6 @@ export const BLOG_POSTS: BlogPost[] = [
         <li><strong>Thread the Needle:</strong> Relieves tension in the upper back and shoulders.</li>
         <li><strong>Reclined Spinal Twist:</strong> A relaxing way to stretch the lower back and hips.</li>
       </ul>
-
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - Mid-Article Banner</div>
 
       <h2>Tips for Safe Practice</h2>
       <p>Never push into pain. Yoga should feel like a "good stretch," not a sharp or stabbing sensation. If you have a serious back injury, consult with a physical therapist before starting a yoga practice.</p>
@@ -1025,6 +1012,8 @@ export const BLOG_POSTS: BlogPost[] = [
     content: `
       <p>Progressive overload is the most fundamental principle of strength training. It states that in order to keep seeing results, you must gradually increase the stress placed on your body during exercise. If you do the same thing every workout, your body has no reason to change.</p>
       
+      <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&q=80&w=800" alt="Progressive Overload" class="w-full rounded-2xl my-8" />
+
       <h2>Ways to Apply Progressive Overload</h2>
       <ul>
         <li><strong>Increase the Weight:</strong> The most obvious way. Add 1-2kg to the bar each week.</li>
@@ -1033,9 +1022,6 @@ export const BLOG_POSTS: BlogPost[] = [
         <li><strong>Decrease Rest Time:</strong> Take 60 seconds of rest instead of 90.</li>
         <li><strong>Improve Form:</strong> Performing the same weight with better control and a fuller range of motion is also progress.</li>
       </ul>
-
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - In-Article Banner</div>
 
       <h2>Tracking Your Progress</h2>
       <p>You cannot manage what you do not measure. Keep a detailed workout log so you know exactly what you did in your last session and what you need to beat today.</p>
@@ -1064,9 +1050,6 @@ export const BLOG_POSTS: BlogPost[] = [
         <li><strong>Acknowledge Your Thoughts:</strong> When your mind wanders (and it will), gently acknowledge the thought and return your focus to your breath.</li>
       </ol>
 
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - Mid-Article Banner</div>
-
       <h2>The Benefits of Regular Practice</h2>
       <p>Studies have shown that regular meditation can lower blood pressure, improve sleep, reduce symptoms of anxiety and depression, and even change the structure of the brain in areas related to focus and emotional regulation.</p>
 
@@ -1080,68 +1063,18 @@ export const BLOG_POSTS: BlogPost[] = [
     readTime: '10 min read',
   },
   {
-    id: '17',
-    title: 'Top 10 Superfoods for a Healthy Heart',
-    slug: 'superfoods-heart-health',
-    excerpt: 'Protect your heart with these 10 nutrient-dense superfoods that can lower cholesterol and improve cardiovascular function.',
-    content: `
-      <p>Your heart is the engine of your body. Feeding it the right nutrients is essential for long-term health and vitality.</p>
-      <h2>Heart-Healthy Superfoods</h2>
-      <ul>
-        <li><strong>Berries:</strong> Packed with antioxidants that reduce inflammation.</li>
-        <li><strong>Fatty Fish:</strong> Rich in omega-3 fatty acids that lower blood pressure.</li>
-        <li><strong>Leafy Greens:</strong> High in vitamin K and nitrates that protect arteries.</li>
-        <li><strong>Oats:</strong> Contain beta-glucan, a fiber that lowers cholesterol.</li>
-        <li><strong>Walnuts:</strong> A great source of fiber and micronutrients.</li>
-      </ul>
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - In-Article Banner</div>
-      <h2>Conclusion</h2>
-      <p>Incorporating these superfoods into your diet is a simple yet powerful way to support your cardiovascular health. Small changes can lead to big results over time.</p>
-    `,
-    category: 'Healthy Diet Plans',
-    author: 'Dr. Alan Grant',
-    date: 'March 27, 2026',
-    image: 'https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&q=80&w=800',
-    readTime: '14 min read',
-  },
-  {
-    id: '18',
-    title: 'The Ultimate Guide to Bodyweight Training',
-    slug: 'bodyweight-training-guide',
-    excerpt: 'No gym? No problem. This comprehensive guide covers everything you need to know about building strength using just your body weight.',
-    content: `
-      <p>Bodyweight training, or calisthenics, is a versatile and effective way to build strength, flexibility, and endurance without any equipment.</p>
-      <h2>Key Bodyweight Exercises</h2>
-      <ul>
-        <li><strong>Push-ups:</strong> The gold standard for upper body strength.</li>
-        <li><strong>Pull-ups:</strong> Essential for building a strong back and biceps.</li>
-        <li><strong>Squats:</strong> The foundation of lower body strength.</li>
-        <li><strong>Planks:</strong> Unbeatable for core stability.</li>
-        <li><strong>Lunges:</strong> Great for balance and leg strength.</li>
-      </ul>
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - In-Article Banner</div>
-      <h2>Progressive Overload in Calisthenics</h2>
-      <p>To keep getting stronger, you need to increase the difficulty of your exercises. This can be done by increasing reps, decreasing rest time, or moving to more challenging variations (e.g., from regular push-ups to diamond push-ups).</p>
-    `,
-    category: 'Home Workout',
-    author: 'Frank Medrano',
-    date: 'March 28, 2026',
-    image: 'https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?auto=format&fit=crop&q=80&w=800',
-    readTime: '16 min read',
-  },
-  {
     id: '30',
     title: 'How to Overcome a Weight Loss Plateau',
     slug: 'overcome-weight-loss-plateau',
     excerpt: 'Stuck at the same weight for weeks? Discover the most common reasons for plateaus and how to break through them.',
     content: `
       <p>Weight loss is rarely a linear process. Almost everyone hits a plateau at some point. The key is not to get discouraged but to adjust your strategy.</p>
+      
+      <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&q=80&w=800" alt="Weight Loss Plateau" class="w-full rounded-2xl my-8" />
+
       <h2>Why Plateaus Happen</h2>
       <p>As you lose weight, your metabolism slows down because your body requires less energy to move a smaller frame. Additionally, your body may adapt to your current exercise routine.</p>
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - In-Article Banner</div>
+      
       <h2>Strategies to Break Through</h2>
       <ul>
         <li><strong>Track Your Calories:</strong> You might be eating more than you think.</li>
@@ -1163,10 +1096,12 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt: 'Short on time? HIIT might be the answer. Learn how to burn more calories in less time with this powerful training method.',
     content: `
       <p>HIIT involves short bursts of intense exercise followed by brief recovery periods. It's one of the most efficient ways to improve cardiovascular health and burn fat.</p>
+      
+      <img src="https://images.unsplash.com/photo-1517838276535-222217502b65?auto=format&fit=crop&q=80&w=800" alt="HIIT Workout" class="w-full rounded-2xl my-8" />
+
       <h2>Why HIIT Works</h2>
       <p>HIIT increases your Excess Post-exercise Oxygen Consumption (EPOC), meaning you continue to burn calories at a higher rate even after your workout is finished.</p>
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - In-Article Banner</div>
+      
       <h2>A Simple HIIT Routine</h2>
       <p>Try 30 seconds of sprinting followed by 30 seconds of walking. Repeat for 15-20 minutes. You can apply this to cycling, swimming, or bodyweight exercises.</p>
     `,
@@ -1189,8 +1124,7 @@ export const BLOG_POSTS: BlogPost[] = [
         <li><strong>Nutrient Transport:</strong> Water helps deliver oxygen and nutrients to your muscles.</li>
         <li><strong>Joint Lubrication:</strong> Proper hydration keeps your joints moving smoothly.</li>
       </ul>
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - In-Article Banner</div>
+      
       <h2>Hydration Strategies</h2>
       <p>Don't wait until you're thirsty to drink water. Aim for at least 3-4 liters a day, and more if you're training intensely or in a hot environment.</p>
     `,
@@ -1211,8 +1145,7 @@ export const BLOG_POSTS: BlogPost[] = [
       <p>A fantastic exercise for teaching core stability while moving your limbs.</p>
       <h2>2. Bird-Dog</h2>
       <p>Improves balance and strengthens the lower back and glutes.</p>
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - In-Article Banner</div>
+      
       <h2>3. Hollow Body Hold</h2>
       <p>The gold standard for gymnastic-style core strength.</p>
       <h2>4. Russian Twists</h2>
@@ -1235,8 +1168,7 @@ export const BLOG_POSTS: BlogPost[] = [
       <p>The mind often gives up before the body. Developing a positive mindset is just as important as developing your muscles.</p>
       <h2>The Impact of Self-Talk</h2>
       <p>The way you talk to yourself during a workout can determine whether you finish that last rep or give up. Replace "I can't" with "I am capable."</p>
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - In-Article Banner</div>
+      
       <h2>Visualizing Success</h2>
       <p>Take a few minutes each day to visualize yourself reaching your fitness goals. See yourself finishing that marathon or lifting that heavy weight.</p>
     `,
@@ -1255,8 +1187,7 @@ export const BLOG_POSTS: BlogPost[] = [
       <p>Restorative yoga is about "being" rather than "doing." It's a practice of deep relaxation that helps to balance the nervous system.</p>
       <h2>Key Principles</h2>
       <p>Using bolsters, blankets, and blocks to support the body so that muscles can fully release. Poses are held for 5-20 minutes.</p>
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - In-Article Banner</div>
+      
       <h2>Benefits for Recovery</h2>
       <p>Restorative yoga is the perfect complement to intense training. It helps to lower cortisol levels and promotes better sleep.</p>
     `,
@@ -1277,8 +1208,7 @@ export const BLOG_POSTS: BlogPost[] = [
       <p>The most researched supplement in history. It helps increase strength and power output.</p>
       <h2>2. Whey Protein</h2>
       <p>A convenient way to reach your daily protein goals, especially post-workout.</p>
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - In-Article Banner</div>
+      
       <h2>3. Beta-Alanine</h2>
       <p>Helps to buffer lactic acid, allowing you to push harder for longer during high-intensity sets.</p>
     `,
@@ -1302,8 +1232,7 @@ export const BLOG_POSTS: BlogPost[] = [
         <li><strong>Mindfulness:</strong> A short meditation or journaling session.</li>
         <li><strong>Healthy Breakfast:</strong> Fuel your body for the day ahead.</li>
       </ul>
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - In-Article Banner</div>
+      
       <h2>Tips for Consistency</h2>
       <p>Start small. Don't try to change everything at once. Pick one or two habits and build from there.</p>
     `,
@@ -1322,8 +1251,7 @@ export const BLOG_POSTS: BlogPost[] = [
       <p>Carbohydrates have been unfairly demonized in recent years. They are actually your body's preferred source of energy, especially for high-intensity exercise.</p>
       <h2>Simple vs. Complex Carbs</h2>
       <p>Simple carbs (sugar, white bread) provide quick energy but can lead to crashes. Complex carbs (oats, sweet potatoes, brown rice) provide sustained energy.</p>
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - In-Article Banner</div>
+      
       <h2>Carb Loading for Performance</h2>
       <p>If you're an endurance athlete or training intensely, carbs are your best friend. They replenish glycogen stores in your muscles and liver.</p>
     `,
@@ -1347,8 +1275,7 @@ export const BLOG_POSTS: BlogPost[] = [
         <li><strong>A Quality Yoga Mat:</strong> Essential for floor work.</li>
         <li><strong>A Pull-up Bar:</strong> The best tool for upper body strength.</li>
       </ul>
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - In-Article Banner</div>
+      
       <h2>Where to Find Deals</h2>
       <p>Check second-hand marketplaces, garage sales, and discount retailers. You'd be surprised what people are giving away!</p>
     `,
@@ -1367,8 +1294,7 @@ export const BLOG_POSTS: BlogPost[] = [
       <p>Fiber is a type of carbohydrate that your body can't digest. It plays a crucial role in keeping you full and your gut healthy.</p>
       <h2>Soluble vs. Insoluble Fiber</h2>
       <p>Soluble fiber dissolves in water and can help lower cholesterol. Insoluble fiber adds bulk to your stool and helps prevent constipation.</p>
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - In-Article Banner</div>
+      
       <h2>How to Increase Your Fiber Intake</h2>
       <p>Focus on beans, lentils, whole grains, fruits, and vegetables. Aim for 25-35 grams of fiber per day.</p>
     `,
@@ -1393,8 +1319,7 @@ export const BLOG_POSTS: BlogPost[] = [
         <li><strong>The Pull:</strong> Drive through your heels, keep the bar close to your body.</li>
         <li><strong>Lockout:</strong> Stand tall, don't over-extend your back.</li>
       </ol>
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - In-Article Banner</div>
+      
       <h2>Common Mistakes to Avoid</h2>
       <p>Don't round your back. Don't jerk the weight off the floor. Don't use your arms to pull the weight—they are just hooks.</p>
     `,
@@ -1417,8 +1342,7 @@ export const BLOG_POSTS: BlogPost[] = [
         <li><strong>5:2 Diet:</strong> Eat normally for 5 days and restrict calories to 500-600 for 2 days.</li>
         <li><strong>Eat-Stop-Eat:</strong> A 24-hour fast once or twice a week.</li>
       </ul>
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - In-Article Banner</div>
+      
       <h2>How IF Helps with Weight Loss</h2>
       <p>IF helps you eat fewer calories while also increasing your metabolic rate slightly. It also lowers insulin levels and increases growth hormone levels, both of which facilitate fat burning.</p>
     `,
@@ -1443,8 +1367,7 @@ export const BLOG_POSTS: BlogPost[] = [
         <li><strong>Sun Salutations:</strong> 4 minutes.</li>
         <li><strong>Mountain Pose:</strong> 2 minutes.</li>
       </ol>
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - In-Article Banner</div>
+      
       <h2>Why Morning Yoga?</h2>
       <p>Morning yoga helps to stimulate your nervous system, increase blood flow, and set a positive tone for the rest of your day.</p>
     `,
@@ -1463,8 +1386,7 @@ export const BLOG_POSTS: BlogPost[] = [
       <p>You don't grow in the gym; you grow while you sleep. Sleep is the most powerful recovery tool at your disposal.</p>
       <h2>Hormonal Balance</h2>
       <p>During deep sleep, your body releases growth hormone, which is essential for tissue repair and muscle growth. Lack of sleep can also increase cortisol, which can lead to muscle breakdown.</p>
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - In-Article Banner</div>
+      
       <h2>Tips for Better Sleep</h2>
       <ul>
         <li><strong>Stick to a Schedule:</strong> Go to bed and wake up at the same time every day.</li>
@@ -1487,8 +1409,7 @@ export const BLOG_POSTS: BlogPost[] = [
       <p>The first few weeks of a new fitness routine are easy. The real challenge comes when the initial excitement wears off. Here's how to stay on track.</p>
       <h2>Find Your "Why"</h2>
       <p>Why do you want to get fit? Is it for your health, your family, or your confidence? Having a strong "why" will help you push through the tough days.</p>
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - In-Article Banner</div>
+      
       <h2>Set Small, Achievable Goals</h2>
       <p>Don't just focus on the end goal. Celebrate the small wins along the way, like drinking more water or finishing a workout when you were tired.</p>
     `,
@@ -1507,8 +1428,7 @@ export const BLOG_POSTS: BlogPost[] = [
       <p>What you eat before your workout can make a huge difference in how you feel and perform. The goal is to provide your body with readily available energy.</p>
       <h2>Timing is Everything</h2>
       <p>Ideally, you should eat a balanced meal 2-3 hours before your workout. If you're short on time, a small snack 30-60 minutes before can also help.</p>
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - In-Article Banner</div>
+      
       <h2>Pre-Workout Meal Ideas</h2>
       <ul>
         <li><strong>Oatmeal with Fruit:</strong> Complex carbs and natural sugars.</li>
@@ -1532,8 +1452,7 @@ export const BLOG_POSTS: BlogPost[] = [
       <p>Poor posture can lead to back pain, headaches, and fatigue. If you work from home, it's essential to be mindful of how you sit and move.</p>
       <h2>Ergonomic Setup</h2>
       <p>Ensure your monitor is at eye level, your feet are flat on the floor, and your chair supports your lower back.</p>
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - In-Article Banner</div>
+      
       <h2>Posture-Improving Stretches</h2>
       <ul>
         <li><strong>Chest Openers:</strong> Stretch out your pec muscles.</li>
@@ -1556,8 +1475,7 @@ export const BLOG_POSTS: BlogPost[] = [
       <p>Swimming is a fantastic full-body workout that is easy on your joints. It's suitable for people of all ages and fitness levels.</p>
       <h2>Why Swim?</h2>
       <p>Water provides natural resistance, which helps to build muscle and burn calories. It's also a great way to improve your cardiovascular health without the impact of running.</p>
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - In-Article Banner</div>
+      
       <h2>Getting Started</h2>
       <p>Find a local pool and start with a few laps. Don't worry about your speed or technique at first. Just focus on moving through the water.</p>
     `,
@@ -1576,8 +1494,7 @@ export const BLOG_POSTS: BlogPost[] = [
       <p>When you're stressed, your body releases cortisol. Exercise helps to lower cortisol levels and increase endorphins—your body's natural "feel-good" chemicals.</p>
       <h2>The Best Exercises for Stress Relief</h2>
       <p>Any form of movement can help, but activities like walking, yoga, and swimming are particularly effective for calming the mind.</p>
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - In-Article Banner</div>
+      
       <h2>Making it a Habit</h2>
       <p>Aim for at least 30 minutes of moderate exercise most days of the week. Even a short walk can make a big difference in how you feel.</p>
     `,
@@ -1596,8 +1513,7 @@ export const BLOG_POSTS: BlogPost[] = [
       <p>Protein is essential for building and repairing tissues, but it's also a powerful tool for weight loss. It has a high thermic effect, meaning your body burns more calories digesting it than it does for fats or carbs.</p>
       <h2>Protein and Hunger</h2>
       <p>Protein is the most satiating macronutrient. It helps to lower levels of ghrelin—the hunger hormone—and increase levels of peptide YY—a hormone that makes you feel full.</p>
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - In-Article Banner</div>
+      
       <h2>How Much Protein Do You Need?</h2>
       <p>Aim for at least 0.8 to 1 gram of protein per pound of body weight if you're active and trying to lose weight.</p>
     `,
@@ -1621,8 +1537,7 @@ export const BLOG_POSTS: BlogPost[] = [
         <li><strong>Depth:</strong> Aim for thighs parallel to the floor.</li>
         <li><strong>The Ascent:</strong> Drive through your heels, stand tall.</li>
       </ol>
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - In-Article Banner</div>
+      
       <h2>Squat Variations</h2>
       <ul>
         <li><strong>Goblet Squats:</strong> Great for beginners.</li>
@@ -1646,8 +1561,7 @@ export const BLOG_POSTS: BlogPost[] = [
       <p>Foam rolling is like a cheap massage. It helps to release tension in your muscles and the surrounding fascia.</p>
       <h2>How to Foam Roll</h2>
       <p>Slowly roll over the target muscle until you find a tender spot. Hold for 30 seconds, then move on. Focus on your quads, hamstrings, glutes, and back.</p>
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - In-Article Banner</div>
+      
       <h2>When to Foam Roll</h2>
       <p>You can foam roll before your workout to improve mobility or after your workout to aid in recovery.</p>
     `,
@@ -1671,8 +1585,7 @@ export const BLOG_POSTS: BlogPost[] = [
         <li><strong>Cardio:</strong> 2-3 days a week, like walking or cycling.</li>
         <li><strong>Cool-down:</strong> 5 minutes of stretching.</li>
       </ul>
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - In-Article Banner</div>
+      
       <h2>Tips for Success</h2>
       <p>Start light. Don't try to lift too much too soon. Focus on your form and listen to your body. Don't be afraid to ask for help!</p>
     `,
@@ -1696,8 +1609,7 @@ export const BLOG_POSTS: BlogPost[] = [
         <li><strong>Listen to Your Body:</strong> Stop eating when you're satisfied, not stuffed.</li>
         <li><strong>Notice Your Emotions:</strong> Are you eating because you're hungry or because you're bored or stressed?</li>
       </ul>
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - In-Article Banner</div>
+      
       <h2>Benefits of Mindful Eating</h2>
       <p>Mindful eating can help you enjoy your food more, prevent overeating, and improve your digestion.</p>
     `,
@@ -1716,8 +1628,7 @@ export const BLOG_POSTS: BlogPost[] = [
       <p>Flexibility is the range of motion in your joints. It's influenced by your muscles, tendons, and ligaments.</p>
       <h2>Static vs. Dynamic Stretching</h2>
       <p>Dynamic stretching involves moving through a range of motion and is best for warming up. Static stretching involves holding a pose and is best for cooling down.</p>
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - In-Article Banner</div>
+      
       <h2>Key Stretches</h2>
       <ul>
         <li><strong>Hamstring Stretch:</strong> Touch your toes.</li>
@@ -1747,8 +1658,7 @@ export const BLOG_POSTS: BlogPost[] = [
         <li><strong>Quinoa:</strong> A complete protein grain.</li>
         <li><strong>Nuts and Seeds:</strong> Healthy fats and protein.</li>
       </ul>
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - In-Article Banner</div>
+      
       <h2>Tips for Success</h2>
       <p>Eat enough calories. Focus on a variety of protein sources to ensure you're getting all the essential amino acids. Consider a vegan protein powder if you're struggling to meet your goals.</p>
     `,
@@ -1767,8 +1677,7 @@ export const BLOG_POSTS: BlogPost[] = [
       <p>Walking is simple, free, and one of the easiest ways to get more active, lose weight, and become healthier. It's often overlooked as a form of exercise, but it's incredibly effective.</p>
       <h2>Why Walk?</h2>
       <p>Walking can help you maintain a healthy weight, prevent or manage various conditions, including heart disease and high blood pressure, and strengthen your bones and muscles.</p>
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - In-Article Banner</div>
+      
       <h2>Mental Health Benefits</h2>
       <p>Walking in nature, in particular, has been shown to reduce stress, anxiety, and depression. It's a great way to clear your head and get some fresh air.</p>
     `,
@@ -1793,8 +1702,7 @@ export const BLOG_POSTS: BlogPost[] = [
         <li><strong>The Top:</strong> Chin over the bar, squeeze your shoulder blades together.</li>
         <li><strong>The Descent:</strong> Lower yourself under control back to the starting position.</li>
       </ol>
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - In-Article Banner</div>
+      
       <h2>Can't Do a Pull-up Yet?</h2>
       <p>Don't worry! Start with assisted pull-ups using a band or machine, or try negative pull-ups where you focus on the lowering phase.</p>
     `,
@@ -1819,8 +1727,7 @@ export const BLOG_POSTS: BlogPost[] = [
         <li><strong>Oats:</strong> High in beta-glucan fiber.</li>
         <li><strong>Apples:</strong> Contain pectin, a type of prebiotic fiber.</li>
       </ul>
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - In-Article Banner</div>
+      
       <h2>Benefits of a Healthy Microbiome</h2>
       <p>A healthy gut is linked to better digestion, a stronger immune system, and even improved mood and mental health.</p>
     `,
@@ -1844,8 +1751,7 @@ export const BLOG_POSTS: BlogPost[] = [
         <li><strong>Hotel Gyms:</strong> Take advantage of the facilities if available.</li>
         <li><strong>Swimming:</strong> If your hotel has a pool or you're near a beach.</li>
       </ul>
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - In-Article Banner</div>
+      
       <h2>Healthy Eating on the Go</h2>
       <p>Pack healthy snacks like nuts and fruit. Research healthy restaurants at your destination. Don't be afraid to ask for modifications to your meals.</p>
     `,
@@ -1869,8 +1775,7 @@ export const BLOG_POSTS: BlogPost[] = [
         <li><strong>Improved Confidence:</strong> Feeling strong is empowering.</li>
         <li><strong>Better Body Composition:</strong> Helps you achieve a toned look.</li>
       </ul>
-      <!-- Ad Placeholder -->
-      <div class="ad-placeholder my-8 p-4 bg-slate-100 border border-dashed border-slate-300 text-center text-slate-400 text-xs uppercase tracking-widest">Google AdSense - In-Article Banner</div>
+      
       <h2>Getting Started</h2>
       <p>Start with basic movements like squats, lunges, and push-ups. Don't be afraid to challenge yourself with heavier weights as you get stronger.</p>
     `,
@@ -1879,5 +1784,248 @@ export const BLOG_POSTS: BlogPost[] = [
     date: 'April 29, 2026',
     image: 'https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?auto=format&fit=crop&q=80&w=800',
     readTime: '16 min read',
+  },
+  {
+    id: '62',
+    title: 'The Science of Muscle Recovery: How to Bounce Back Faster',
+    slug: 'science-muscle-recovery',
+    excerpt: 'Understand the physiological processes of muscle repair and learn evidence-based strategies to speed up your recovery.',
+    content: `
+      <p>Muscle recovery is just as important as the workout itself. When you train, you create microscopic tears in your muscle fibers. Recovery is the process by which your body repairs these tears, making the muscles stronger and larger.</p>
+      
+      <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&q=80&w=800" alt="Muscle Recovery" class="w-full rounded-2xl my-8" />
+
+      <h2>Key Recovery Strategies</h2>
+      <ul>
+        <li><strong>Sleep:</strong> The most critical time for tissue repair and growth hormone release.</li>
+        <li><strong>Nutrition:</strong> Consuming adequate protein and carbohydrates to refuel and repair.</li>
+        <li><strong>Hydration:</strong> Essential for transporting nutrients to your muscles.</li>
+        <li><strong>Active Recovery:</strong> Light movement like walking or swimming to increase blood flow.</li>
+      </ul>
+      
+      <p>By prioritizing recovery, you can train harder and more frequently, leading to better long-term results.</p>
+    `,
+    category: 'Muscle Building',
+    author: 'Dr. Sarah Wilson',
+    date: 'May 1, 2026',
+    image: 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&q=80&w=800',
+    readTime: '12 min read',
+  },
+  {
+    id: '63',
+    title: 'Intermittent Fasting for Beginners: What You Need to Know',
+    slug: 'intermittent-fasting-beginners',
+    excerpt: 'A simple guide to understanding intermittent fasting, its benefits, and how to get started safely.',
+    content: `
+      <p>Intermittent fasting (IF) is currently one of the world's most popular health and fitness trends. It's an eating pattern that cycles between periods of fasting and eating.</p>
+      
+      <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&q=80&w=800" alt="Intermittent Fasting" class="w-full rounded-2xl my-8" />
+
+      <h2>Popular Fasting Methods</h2>
+      <ul>
+        <li><strong>16/8 Method:</strong> Fast for 16 hours and eat during an 8-hour window.</li>
+        <li><strong>5:2 Diet:</strong> Eat normally for 5 days and restrict calories to 500-600 for 2 days.</li>
+        <li><strong>Eat-Stop-Eat:</strong> A 24-hour fast once or twice a week.</li>
+      </ul>
+      
+      <p>IF can help with weight loss, improve metabolic health, and even simplify your lifestyle by reducing the number of meals you need to prepare.</p>
+    `,
+    category: 'Healthy Diet Plans',
+    author: 'James Clear',
+    date: 'May 2, 2026',
+    image: 'https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&q=80&w=800',
+    readTime: '10 min read',
+  },
+  {
+    id: '64',
+    title: 'The Best Yoga Poses for Flexibility and Stress Relief',
+    slug: 'best-yoga-poses-flexibility',
+    excerpt: 'Improve your range of motion and calm your mind with these essential yoga poses for all levels.',
+    content: `
+      <p>Yoga is a powerful tool for both physical and mental health. These poses are specifically chosen to help you open up your body and find a sense of peace.</p>
+      
+      <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&q=80&w=800" alt="Yoga Poses" class="w-full rounded-2xl my-8" />
+
+      <h2>Top Poses for Beginners</h2>
+      <ul>
+        <li><strong>Child's Pose:</strong> A resting pose that gently stretches the hips, thighs, and ankles.</li>
+        <li><strong>Downward-Facing Dog:</strong> Strengthens the arms and shoulders while stretching the hamstrings and calves.</li>
+        <li><strong>Warrior II:</strong> Builds strength in the legs and core while opening the hips and chest.</li>
+        <li><strong>Tree Pose:</strong> Improves balance and focus.</li>
+      </ul>
+      
+      <p>Consistency is key in yoga. Even 10 minutes a day can make a significant difference in how you feel.</p>
+    `,
+    category: 'Yoga & Stretching',
+    author: 'Adriene Mishler',
+    date: 'May 3, 2026',
+    image: 'https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&q=80&w=800',
+    readTime: '15 min read',
+  },
+  {
+    id: '65',
+    title: 'The Benefits of Cold Plunges: Why You Should Try Ice Baths',
+    slug: 'benefits-cold-plunges-ice-baths',
+    excerpt: 'Explore the science behind cold water immersion and how it can improve recovery, boost immunity, and enhance mental clarity.',
+    content: `
+      <p>Cold water immersion, or cold plunging, has been used for centuries for its health benefits. From professional athletes to wellness enthusiasts, many are turning to ice baths to improve their physical and mental well-being.</p>
+      
+      <img src="https://images.unsplash.com/photo-1530549387074-d56a99e142e0?auto=format&fit=crop&q=80&w=800" alt="Cold Plunge" class="w-full rounded-2xl my-8" />
+
+      <h2>Why Cold Plunge?</h2>
+      <ul>
+        <li><strong>Reduced Inflammation:</strong> Cold water helps constrict blood vessels and reduce muscle soreness after intense exercise.</li>
+        <li><strong>Improved Recovery:</strong> Speeds up the recovery process by flushing out metabolic waste.</li>
+        <li><strong>Boosted Immunity:</strong> Regular exposure to cold can stimulate the production of white blood cells.</li>
+        <li><strong>Mental Resilience:</strong> Overcoming the initial shock of the cold builds mental strength and focus.</li>
+      </ul>
+      
+      <p>Start slow with cool showers and gradually work your way up to full ice baths. Always listen to your body and consult with a professional if you have any health concerns.</p>
+    `,
+    category: 'Mental Health & Wellness',
+    author: 'Wim Hof',
+    date: 'May 4, 2026',
+    image: 'https://images.unsplash.com/photo-1530549387074-d56a99e142e0?auto=format&fit=crop&q=80&w=800',
+    readTime: '10 min read',
+  },
+  {
+    id: '66',
+    title: 'How to Build a Strong Core: Beyond the Crunches',
+    slug: 'build-strong-core-exercises',
+    excerpt: 'Learn why core strength is vital for overall fitness and discover the best exercises to build a functional and powerful midsection.',
+    content: `
+      <p>A strong core is the foundation of almost every movement we make. It's not just about having a six-pack; it's about stability, balance, and power. To build a truly strong core, you need to go beyond traditional crunches.</p>
+      
+      <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&q=80&w=800" alt="Core Training" class="w-full rounded-2xl my-8" />
+
+      <h2>Functional Core Exercises</h2>
+      <ul>
+        <li><strong>Plank:</strong> The ultimate isometric exercise for core stability.</li>
+        <li><strong>Dead Bug:</strong> Teaches you how to stabilize your core while moving your limbs.</li>
+        <li><strong>Bird-Dog:</strong> Improves balance and strengthens the posterior chain.</li>
+        <li><strong>Hanging Leg Raises:</strong> Targets the lower abs and hip flexors.</li>
+        <li><strong>Pallof Press:</strong> An anti-rotation exercise that builds lateral stability.</li>
+      </ul>
+      
+      <p>Incorporate these exercises into your routine 2-3 times a week for a stronger, more resilient body.</p>
+    `,
+    category: 'Home Workout',
+    author: 'Jeff Cavaliere',
+    date: 'May 5, 2026',
+    image: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&q=80&w=800',
+    readTime: '12 min read',
+  },
+  {
+    id: '67',
+    title: 'The Importance of Mobility: Why You Need to Move Better',
+    slug: 'importance-of-mobility',
+    excerpt: 'Mobility is not just about flexibility. Learn why moving well is the foundation for strength and injury prevention.',
+    content: `
+      <p>Mobility is the ability of a joint to move actively through a range of motion. It's different from flexibility, which is the passive range of motion. Good mobility ensures that your body can handle the stresses of training and daily life without injury.</p>
+      
+      <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&q=80&w=800" alt="Mobility Training" class="w-full rounded-2xl my-8" />
+
+      <h2>Why Mobility Matters</h2>
+      <ul>
+        <li><strong>Injury Prevention:</strong> Proper joint function reduces the risk of strains and tears.</li>
+        <li><strong>Better Performance:</strong> Improved range of motion allows for better form and more power.</li>
+        <li><strong>Reduced Pain:</strong> Many chronic aches are caused by poor mobility in neighboring joints.</li>
+      </ul>
+
+      <h2>How to Improve Your Mobility</h2>
+      <p>Incorporate dynamic stretching, foam rolling, and specific mobility drills into your warm-up and cool-down routines. Consistency is key.</p>
+    `,
+    category: 'Fitness Tips',
+    author: 'Kelly Starrett',
+    date: 'April 1, 2026',
+    image: 'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&q=80&w=800',
+    readTime: '12 min read',
+  },
+  {
+    id: '68',
+    title: 'How to Master the Deadlift: Form, Tips, and Common Mistakes',
+    slug: 'master-the-deadlift',
+    excerpt: 'The deadlift is the ultimate test of strength. Learn how to perform it safely and effectively for maximum gains.',
+    content: `
+      <p>The deadlift is a fundamental compound movement that works almost every muscle in your body, with a primary focus on the posterior chain (back, glutes, and hamstrings). However, it's also an exercise where poor form can lead to serious injury.</p>
+      
+      <img src="https://images.unsplash.com/photo-1517838276535-222217502b65?auto=format&fit=crop&q=80&w=800" alt="Deadlift Form" class="w-full rounded-2xl my-8" />
+
+      <h2>Proper Deadlift Form</h2>
+      <ol>
+        <li><strong>Setup:</strong> Stand with feet hip-width apart, bar over mid-foot.</li>
+        <li><strong>Grip:</strong> Bend at the hips and knees to grab the bar just outside your legs.</li>
+        <li><strong>Brace:</strong> Flatten your back, pull your shoulders back, and engage your core.</li>
+        <li><strong>The Lift:</strong> Drive through your heels, keeping the bar close to your body as you stand up.</li>
+        <li><strong>Lockout:</strong> Stand tall, but don't lean back excessively.</li>
+      </ol>
+
+      <h2>Common Mistakes to Avoid</h2>
+      <ul>
+        <li>Rounding your back.</li>
+        <li>Letting the bar drift away from your shins.</li>
+        <li>Using your arms to pull the weight.</li>
+      </ul>
+    `,
+    category: 'Gym Workout Plans',
+    author: 'Ed Coan',
+    date: 'April 2, 2026',
+    image: 'https://images.unsplash.com/photo-1517838276535-222217502b65?auto=format&fit=crop&q=80&w=800',
+    readTime: '15 min read',
+  },
+  {
+    id: '69',
+    title: 'The Role of Micronutrients in Athletic Performance',
+    slug: 'micronutrients-athletic-performance',
+    excerpt: 'Vitamins and minerals are just as important as macros. Learn which micronutrients are essential for athletes.',
+    content: `
+      <p>While macronutrients (protein, carbs, fats) provide the energy for training, micronutrients (vitamins and minerals) are the catalysts for almost every biological process in your body, including energy production, muscle contraction, and recovery.</p>
+      
+      <img src="https://images.unsplash.com/photo-1490818387583-1baba5e638af?auto=format&fit=crop&q=80&w=800" alt="Healthy Food" class="w-full rounded-2xl my-8" />
+
+      <h2>Essential Micronutrients for Athletes</h2>
+      <ul>
+        <li><strong>Iron:</strong> Essential for oxygen transport in the blood.</li>
+        <li><strong>Magnesium:</strong> Involved in over 300 biochemical reactions, including muscle function.</li>
+        <li><strong>Vitamin D:</strong> Crucial for bone health and immune function.</li>
+        <li><strong>Zinc:</strong> Important for protein synthesis and wound healing.</li>
+        <li><strong>B Vitamins:</strong> Key for energy metabolism.</li>
+      </ul>
+
+      <h2>Should You Supplement?</h2>
+      <p>A well-balanced diet should provide most of what you need, but athletes with high training volumes or specific dietary restrictions may benefit from targeted supplementation. Consult with a professional before starting any new supplement regimen.</p>
+    `,
+    category: 'Healthy Diet Plans',
+    author: 'Dr. Rhonda Patrick',
+    date: 'April 3, 2026',
+    image: 'https://images.unsplash.com/photo-1490818387583-1baba5e638af?auto=format&fit=crop&q=80&w=800',
+    readTime: '14 min read',
+  },
+  {
+    id: '70',
+    title: 'How to Stay Fit While Traveling: Tips and Workouts',
+    slug: 'stay-fit-while-traveling',
+    excerpt: 'Don\'t let your vacation ruin your progress. Learn how to stay active and eat healthy while on the road.',
+    content: `
+      <p>Traveling can disrupt your routine, but it doesn't have to derail your fitness goals. With a little planning and creativity, you can stay active and enjoy your trip without losing your hard-earned gains.</p>
+      
+      <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&q=80&w=800" alt="Travel Fitness" class="w-full rounded-2xl my-8" />
+
+      <h2>Travel Fitness Tips</h2>
+      <ul>
+        <li><strong>Walk Everywhere:</strong> It's the best way to see a new city and stay active.</li>
+        <li><strong>Use Hotel Gyms:</strong> Even a basic gym is better than nothing.</li>
+        <li><strong>Pack Resistance Bands:</strong> They are lightweight and incredibly versatile.</li>
+        <li><strong>Prioritize Protein:</strong> It helps keep you full and preserves muscle mass.</li>
+      </ul>
+
+      <h2>Quick Bodyweight Travel Workout</h2>
+      <p>3 rounds of: 20 squats, 15 push-ups, 10 lunges per leg, and a 45-second plank. No equipment needed!</p>
+    `,
+    category: 'Fitness Tips',
+    author: 'Nomadic Matt',
+    date: 'April 4, 2026',
+    image: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&q=80&w=800',
+    readTime: '10 min read',
   },
 ];

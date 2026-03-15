@@ -5,7 +5,6 @@ import { blogService } from '../services/blogService';
 import { BlogPost } from '../types';
 import BlogCard from '../components/BlogCard';
 import Sidebar from '../components/Sidebar';
-import AdPlaceholder from '../components/AdPlaceholder';
 import { Search, ChevronLeft, ChevronRight } from 'lucide-react';
 
 const Blog = () => {
@@ -90,8 +89,6 @@ const Blog = () => {
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-16">
         <div className="lg:col-span-2 space-y-12">
-          <AdPlaceholder location="header" />
-
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {paginatedPosts.map((post) => (
               <BlogCard key={post.id} post={post} />
@@ -137,8 +134,6 @@ const Blog = () => {
               </button>
             </div>
           )}
-
-          <AdPlaceholder location="footer" />
         </div>
 
         <Sidebar />

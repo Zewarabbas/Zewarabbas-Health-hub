@@ -40,10 +40,6 @@ const Contact = () => {
               </div>
             </div>
           </div>
-
-          <div className="ad-placeholder h-[300px]">
-            Google AdSense - Contact Sidebar
-          </div>
         </div>
 
         <div className="lg:col-span-2">

@@ -28,18 +28,11 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="bg-slate-50 border-b border-slate-100 py-2 hidden md:block">
-        <div className="max-w-7xl mx-auto px-4">
-          <div className="ad-placeholder h-[90px] w-full flex items-center justify-center bg-white border border-dashed border-slate-200 rounded-lg text-slate-400 text-xs">
-            Google AdSense - Header Leaderboard
-          </div>
-        </div>
-      </div>
       <nav className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
-          <Link to="/" className="flex items-center gap-2 group">
-            <div className="p-2 bg-primary rounded-lg text-white group-hover:scale-110 transition-transform">
+          <Link to="/" className="flex items-center gap-2 group hover:scale-105 transition-transform">
+            <div className="p-2 bg-primary rounded-lg text-white group-hover:rotate-12 transition-transform">
               <HeartPulse size={24} />
             </div>
             <span className="text-xl font-display font-bold text-slate-900">Healthy Life Hub</span>

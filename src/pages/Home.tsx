@@ -20,7 +20,7 @@ import { CATEGORIES } from '../constants';
 import { blogService } from '../services/blogService';
 import { BlogPost } from '../types';
 import BlogCard from '../components/BlogCard';
-import AdPlaceholder from '../components/AdPlaceholder';
+import VideoModal from '../components/VideoModal';
 
 const iconMap: Record<string, any> = {
   Scale,
@@ -36,6 +36,9 @@ const iconMap: Record<string, any> = {
 const Home = () => {
   const [posts, setPosts] = useState<BlogPost[]>([]);
   const [loading, setLoading] = useState(true);
+  const [isVideoModalOpen, setIsVideoModalOpen] = useState(false);
+
+  const trailerVideoUrl = "https://assets.mixkit.co/videos/preview/mixkit-man-doing-push-ups-in-a-gym-42154-large.mp4";
 
   useEffect(() => {
     const unsubscribe = blogService.subscribeToPosts((fetchedPosts) => {
@@ -51,62 +54,74 @@ const Home = () => {
   return (
     <div className="space-y-24 pb-24">
       {/* Hero Section */}
-      <section className="relative min-h-[80vh] flex items-center overflow-hidden bg-slate-50">
+      <section className="relative min-h-[85vh] flex items-center overflow-hidden bg-slate-900">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&q=80&w=1920"
+            src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&q=80&w=1920"
             alt="Fitness Hero"
-            className="w-full h-full object-cover opacity-20"
+            className="w-full h-full object-cover opacity-60"
             referrerPolicy="no-referrer"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-white via-white/80 to-transparent"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-slate-900 via-slate-900/40 to-transparent"></div>
         </div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="max-w-2xl">
             <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              className="inline-flex items-center gap-2 bg-accent text-primary px-4 py-2 rounded-full text-xs font-bold uppercase tracking-wider mb-6"
+              initial={{ opacity: 0, x: -20 }}
+              animate={{ opacity: 1, x: 0 }}
+              className="inline-flex items-center gap-2 bg-primary text-white px-4 py-2 rounded-full text-xs font-bold uppercase tracking-wider mb-6"
             >
-              <Star size={14} />
-              Your Journey to Better Health Starts Here
+              <Star size={14} className="animate-pulse" />
+              Premium Fitness Community
             </motion.div>
             <motion.h1
-              initial={{ opacity: 0, y: 20 }}
+              initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.1 }}
-              className="text-5xl md:text-7xl font-display font-bold text-slate-900 leading-[1.1] mb-6"
+              whileHover={{ scale: 1.02 }}
+              transition={{ duration: 0.8, ease: "easeOut" }}
+              className="text-6xl md:text-8xl font-display font-bold text-white leading-[1] mb-8 cursor-default"
             >
-              Transform Your <span className="text-primary italic">Life</span> Through Fitness
+              Elevate Your <span className="text-primary italic">Potential</span>
             </motion.h1>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.2 }}
-              className="text-lg text-slate-600 mb-10 leading-relaxed"
+              transition={{ delay: 0.2, duration: 0.8 }}
+              className="text-xl text-slate-300 mb-12 leading-relaxed max-w-xl"
             >
-              Expert advice, workout plans, and nutrition tips designed to help you reach your peak performance and live a healthier, happier life.
+              Join the elite community dedicated to physical excellence and mental fortitude. Your transformation begins today.
             </motion.p>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.3 }}
-              className="flex flex-wrap gap-4"
+              transition={{ delay: 0.4 }}
+              className="flex flex-wrap gap-6"
             >
-              <Link
-                to="/blog"
-                className="bg-primary text-white px-8 py-4 rounded-full font-bold hover:bg-primary-dark transition-all shadow-xl shadow-primary/30 flex items-center gap-2 group"
+              <motion.div
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.95 }}
               >
-                Explore Articles
-                <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
-              </Link>
-              <button className="bg-white text-slate-900 px-8 py-4 rounded-full font-bold hover:bg-slate-50 transition-all border border-slate-200 flex items-center gap-2">
-                <div className="w-8 h-8 bg-accent rounded-full flex items-center justify-center text-primary">
-                  <Play size={14} fill="currentColor" />
+                <Link
+                  to="/blog"
+                  className="bg-primary text-white px-10 py-5 rounded-full font-bold hover:bg-white hover:text-primary transition-all shadow-2xl shadow-primary/40 flex items-center gap-3 group text-lg"
+                >
+                  Start Training
+                  <ArrowRight size={22} className="group-hover:translate-x-2 transition-transform" />
+                </Link>
+              </motion.div>
+              
+              <motion.button 
+                onClick={() => setIsVideoModalOpen(true)}
+                whileHover={{ scale: 1.1, backgroundColor: "rgba(255, 255, 255, 0.1)" }}
+                whileTap={{ scale: 0.95 }}
+                className="bg-transparent text-white px-10 py-5 rounded-full font-bold transition-all border-2 border-white/30 flex items-center gap-3 text-lg backdrop-blur-sm"
+              >
+                <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center text-white shadow-lg">
+                  <Play size={16} fill="currentColor" />
                 </div>
-                Watch Success Stories
-              </button>
+                Watch Trailer
+              </motion.button>
             </motion.div>
 
             <motion.div
@@ -129,7 +144,6 @@ const Home = () => {
       </section>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <AdPlaceholder location="header" />
       </div>
 
       {/* Featured Posts */}
@@ -248,11 +262,15 @@ const Home = () => {
                 We respect your privacy. Unsubscribe at any time.
               </p>
             </div>
-
-            <AdPlaceholder location="sidebar" />
           </div>
         </div>
       </section>
+
+      <VideoModal 
+        isOpen={isVideoModalOpen} 
+        onClose={() => setIsVideoModalOpen(false)} 
+        videoUrl={trailerVideoUrl} 
+      />
     </div>
   );
 };
